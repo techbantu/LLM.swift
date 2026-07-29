@@ -1,5 +1,20 @@
 # LLM.swift
 
+> [!IMPORTANT]
+> **Vendor snapshot (status checked 2026-07-29):** This TechBantu repository
+> preserves [`eastriverlee/LLM.swift`](https://github.com/eastriverlee/LLM.swift)
+> at upstream commit
+> [`427f3b8`](https://github.com/eastriverlee/LLM.swift/commit/427f3b8957a40982500abc8d35ccff8b83ec56a4).
+> The upstream project is active and remains the source of truth for current
+> code, releases, documentation, issues, and contributions. This mirror is not
+> an independent continuation.
+>
+> The snapshot retains the upstream MIT license and original author
+> attribution. Technical claims, badges, sponsor links, contributor history,
+> and project metrics in the documentation below come from upstream and have
+> not been independently validated by TechBantu; they are not TechBantu
+> adoption or maintenance evidence.
+
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Feastriverlee%2FLLM.swift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/eastriverlee/LLM.swift)
 [![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Feastriverlee%2FLLM.swift%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/eastriverlee/LLM.swift)
 
@@ -361,4 +376,3 @@ The `Embeddings` struct provides:
 - `compare(with:)` - Computes cosine similarity between two embeddings (0.0 to 1.0)
 - `findMostSimilar(in:)` - Returns the most similar embedding from a set of candidates
 - `Equatable` conformance for direct comparison
-
